@@ -1,6 +1,6 @@
 # Get Random Anime
 
-Get Random Anime is a simple React app that allows you to view information about a random anime. [Click here](https://mr-vabs.github.io/get-random-anime/) to check!
+Get Random Anime is a simple React app that allows you to view information about a random anime.
 
 ## Features
 
@@ -34,8 +34,6 @@ The app is built using the following technologies:
 
 * React
 * Jikan API
-* Webpack
-* Babel
 
 To build the app, you will need to have Node.js and npm installed on your computer. Once you have those installed, you can follow the steps in the "Getting Started" section above to install the dependencies and start the app.
 
