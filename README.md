@@ -1,6 +1,6 @@
 # Get Random Anime
 
-Get Random Anime is a simple React app that allows you to view information about a random anime.
+Get Random Anime is a simple React app that allows you to view information about a random anime. [Click here](htttps://mr-vabs.github.io/get-random-anime) to check!
 
 ## Features
 
