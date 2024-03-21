@@ -32,7 +32,7 @@ const AnimeCard = ({ data }) => {
                 if (
                   typeof value === "string" &&
                   value.trim() !== "" &&
-                  !["title", "title_japanese", "synopsis", "background", "url"].includes(key)
+                  !["title", "title_english", "title_japanese", "synopsis", "background", "url"].includes(key)
                 ) {
                   return (
                     <span key={key}>
