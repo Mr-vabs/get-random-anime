@@ -36,13 +36,21 @@ const App = () => {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid position-relative">
       {data && <AnimeCard data={data} />}
       {!data && (
         <h1 className="display-1">No Data Found for ID {randomNumber}</h1>
       )}
-      <button className="btn btn-info position-absolute position-fixed bottom-0 end-0 rounded-pill" onClick={generateRandomNumber}>
-        Get Random Anime
+      <button
+        style={{ position: "fixed", bottom: "2rem", right: "2rem", background: "white", borderRadius: "50%", padding: "0" }}
+        className="border-0 d-flex align-items-center"
+        onClick={generateRandomNumber}
+      >
+        <img
+          src={process.env.PUBLIC_URL + "/loading_icon.gif"}
+          alt="Loading Icon"
+          style={{ width: "75px", height: "75px", borderRadius: "50%" }}
+        />
       </button>
     </div>
   );
