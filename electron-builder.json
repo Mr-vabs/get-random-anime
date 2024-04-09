@@ -1,0 +1,1 @@
+{"appId":"com.getrandomanime.app","productName":"Get Random Anime","directories":{"output":"dist"},"files":["main.js","build/**/*","node_modules/**/*","package.json"],"win":{"target":"nsis"},"nsis":{"oneClick":false,"perMachine":false,"allowToChangeInstallationDirectory":true}}
